@@ -1,8 +1,12 @@
+Here’s the updated README with the deployment link included:
+
 ---
 
 # **Google Homepage Clone**
 
 A fully functional clone of the Google homepage, built using modern web development technologies like **React** and **Vite**. This project features a custom search engine, an interactive map powered by **LocationIQ**, and a user interface inspired by Google's design principles.
+
+**Live Demo**: [https://noogle-u4cn.onrender.com](https://noogle-u4cn.onrender.com)
 
 ---
 
@@ -37,3 +41,5 @@ A fully functional clone of the Google homepage, built using modern web developm
 > For production environments, it is **highly recommended** to secure API keys using environment variables and server-side handling.
 
 ---
+
+Feel free to copy and use this as your GitHub README file!
