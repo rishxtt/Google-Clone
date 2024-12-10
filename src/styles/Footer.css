@@ -1,0 +1,30 @@
+.footer {
+    position: fixed;
+    bottom: 0;
+    left: 50%; /* Center the footer */
+    transform: translateX(-50%); /* Align it centrally */
+    background-color: #f8f8f8;
+    padding: 10px 40px; /* Reduced padding for a compact footer */
+    font-size: 14px;
+    color: #70757a;
+    border-radius: 8px; /* Adds subtle rounded corners */
+    box-shadow: 0 -1px 5px rgba(0, 0, 0, 0.1); /* Limited shadow */
+  }
+  
+  .footer-left {
+    display: flex;
+    gap: 20px;
+    justify-content: center; /* Center-align links */
+    align-items: center;
+  }
+  
+  .footer-left a {
+    text-decoration: none;
+    color: #70757a;
+    font-family: Arial, sans-serif;
+  }
+  
+  .footer-left a:hover {
+    text-decoration: underline;
+  }
+  

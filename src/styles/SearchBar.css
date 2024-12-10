@@ -1,0 +1,61 @@
+.search-bar-wrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 90vh;
+    margin: 0;
+    padding: 0;
+    background-color: #ffffff;
+    transform: translateY(-50px);
+  }
+  
+  .google-logo {
+    width: 300px;
+    margin-bottom: 40px;
+  }
+  
+  .search-box-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .gcse-searchbox-only {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 0; /* Remove any default gaps */
+  }
+  
+  .gcse-searchbox-only input.gsc-input {
+    width: 650px !important; /* Adjust width as needed */
+    height: 50px !important;
+    padding: 0 20px !important;
+    border: 1px solid #dfe1e5 !important;
+    border-radius: 25px 0 0 25px !important; /* Rounded on the left side only */
+    font-size: 16px !important;
+    box-shadow: 0px 1px 6px rgba(32, 33, 36, 0.28) !important;
+  }
+  
+  .gcse-searchbox-only .gsc-search-button {
+    width: 60px !important;
+    height: 50px !important;
+    background-color: #4285f4 !important;
+    border: none !important;
+    border-radius: 0 25px 25px 0 !important; /* Rounded on the right side only */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .gcse-searchbox-only .gsc-search-button:hover {
+    background-color: #357ae8 !important;
+  }
+  
+  .gcse-searchbox-only .gsc-branding {
+    display: none;
+  }
+  
