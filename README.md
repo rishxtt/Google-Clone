@@ -1,5 +1,3 @@
-Here’s the updated README with the deployment link included:
-
 ---
 
 # **Google Homepage Clone**
